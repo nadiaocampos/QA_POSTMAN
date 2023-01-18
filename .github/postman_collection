@@ -1,0 +1,66 @@
+[
+  {
+    "name": "ClicOH_C1_Inicio",
+    "id": "17928242-09654a61-fb87-41c0-9194-554a60b9396d"
+  },
+  {
+    "name": "ClicOH_C2_Public",
+    "id": "17928242-03ce141e-103f-4f70-bcb7-60d3e5a15add"
+  },
+  {
+    "name": "ClicOH_C3_Billing",
+    "id": "17928242-2c3d3420-5f8f-4e2a-a9e8-4988216a154a"
+  },  
+  {
+    "name": "ClicOH_C4_Activities_Woocommerce",
+    "id": "17928242-97c47753-44cf-49a2-9591-d2b8b8a2669d"
+  },
+  {
+    "name": "ClicOH_C5_User_Countries",
+    "id": "17928242-fe15cdce-0e7a-45d4-a055-1902ee979f0c"
+  },
+  {
+    "name": "ClicOH_C6_Cadet_Driver_Vehicle",
+    "id": "17928242-e8892b53-9d87-439e-903e-64a39bac6f69"
+  },
+  {
+    "name": "ClicOH_C7_Routes",
+    "id": "17928242-8743b0d3-c50f-41ea-9bdd-5e581de38b72"
+  },
+  {
+    "name": "ClicOH_C8_Packages",
+    "id": "17928242-02500f62-056a-4f8c-9803-254708fa9aa0"
+  },
+  {
+    "name": "ClicOH_C9_Pickup_Address",
+    "id": "17928242-22e03fa8-4e29-4b98-982d-7d1bc3dd0efb"
+  },
+  {
+    "name": "ClicOH_C10_Batches",
+    "id": "17928242-5e1bf35d-01d8-4950-8129-2d2522d9c45a"
+  },
+  {
+    "name": "ClicOH_C11_Pickup_Campaign",
+    "id": "17928242-83ea80e2-a2cd-4d6f-9c2e-c07d38a30d55"
+  },
+  {
+    "name": "ClicOH_C12_Pickup_Clients_Custom_Groups",
+    "id": "17928242-8fd91aa6-044e-4c77-a63b-e54a93a99757"
+  },
+  {
+    "name": "ClicOH_C13_Pickup_Packages",
+    "id": "17928242-7dec58f0-969e-491c-af9f-712e2f68175a"
+  },
+  {
+    "name": "ClicOH_C14_Pickup_Permissions_PP_Schedules_Services",
+    "id": "17928242-c2c40454-35f9-4a19-ae8e-1e6960c8fa85"
+  },
+  {
+    "name": "ClicOH_C15_Pickup_Product",
+    "id": "17928242-8d709697-b57c-4951-9892-fd580efc5b37"
+  },
+   {
+    "name": "ClicOH_C20_MS1",
+    "id": "17928242-2afdefa1-6423-4a4e-896a-fa51da9eedbc"
+  }
+]
