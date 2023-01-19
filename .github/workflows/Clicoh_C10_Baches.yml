@@ -1,6 +1,11 @@
 name: Clicoh_C10_Baches
 
-on: push
+on: 
+   push:
+    branches : 
+      - master
+   schedule:
+    - cron:  '0 10 * * *' # 7:00AM ART
 
 jobs:
   automated-api-tests:
