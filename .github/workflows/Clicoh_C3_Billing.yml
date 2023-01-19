@@ -1,6 +1,12 @@
-name: Automated API tests using Postman CLI
+name: Clicoh_C3_Billing
 
-on: push
+on: 
+   push:
+    branches : 
+      - master
+   schedule:
+    - cron:  '0 9 * * *' # 6AM ART
+
 
 jobs:
   automated-api-tests:
