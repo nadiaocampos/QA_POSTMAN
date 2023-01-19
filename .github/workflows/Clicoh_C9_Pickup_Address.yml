@@ -1,6 +1,11 @@
 name: Clicoh_C9_Pickup_Address
 
-on: push
+on: 
+   push:
+    branches : 
+      - master
+   schedule:
+    - cron:  '30 9 * * *' # 6:30AM ART
 
 jobs:
   automated-api-tests:
