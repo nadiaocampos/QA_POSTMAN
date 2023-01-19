@@ -1,11 +1,6 @@
-name: Clicoh_C10_Pickup_Address
+name: Clicoh_C10_Baches
 
-on: 
-   push:
-    branches : 
-      - master
-   schedule:
-    - cron:  '30 9 * * *' # 6:30AM ART
+on: push
 
 jobs:
   automated-api-tests:
@@ -19,4 +14,4 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman collection run "17928242-22e03fa8-4e29-4b98-982d-7d1bc3dd0efb" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-5e1bf35d-01d8-4950-8129-2d2522d9c45a" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
