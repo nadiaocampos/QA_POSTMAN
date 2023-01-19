@@ -1,4 +1,4 @@
-name: Automated API tests using Postman CLI
+name: Clicoh_C4_Activities_Woocommerce
 
 on: 
    push:
