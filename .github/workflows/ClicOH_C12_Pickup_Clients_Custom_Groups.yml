@@ -1,6 +1,11 @@
 name: ClicOH_C12_Pickup_Clients_Custom_Groups
 
-on: push
+on: 
+  push :
+   branches :
+     - master
+  schedule:
+   - cron:  '0 9 * * *' # EJECUTA A LAS 9 AM 
 
 jobs:
   automated-api-tests:
