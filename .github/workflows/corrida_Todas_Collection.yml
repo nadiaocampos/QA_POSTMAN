@@ -1,0 +1,38 @@
+name: Corrida Todas Collection
+
+on: push
+
+
+jobs:
+  automated-api-tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Postman CLI
+        run: |
+          powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
+      - name: Login to Postman CLI
+        run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
+      - name: Run API tests
+        run: |
+          postman collection run "17928242-09654a61-fb87-41c0-9194-554a60b9396d" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-03ce141e-103f-4f70-bcb7-60d3e5a15add" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "21268874-6c079e6b-b685-4764-bf72-663a6c83d438" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-97c47753-44cf-49a2-9591-d2b8b8a2669d" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-fe15cdce-0e7a-45d4-a055-1902ee979f0c" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-e8892b53-9d87-439e-903e-64a39bac6f69" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-8743b0d3-c50f-41ea-9bdd-5e581de38b72" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-d727a792-c474-4833-9b7c-0f8e9f88de5e" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-22e03fa8-4e29-4b98-982d-7d1bc3dd0efb" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-5e1bf35d-01d8-4950-8129-2d2522d9c45a" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-83ea80e2-a2cd-4d6f-9c2e-c07d38a30d55" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-8fd91aa6-044e-4c77-a63b-e54a93a99757" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-7dec58f0-969e-491c-af9f-712e2f68175a" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-c2c40454-35f9-4a19-ae8e-1e6960c8fa85" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-8d709697-b57c-4951-9892-fd580efc5b37" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-20a3daeb-e71b-44f2-95ef-ff37455c4670" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-dc0c76d5-40a3-4a84-84a1-6a4b6fc4b6f6" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-d55acb31-4081-4f5f-852a-26394c6dab3c" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-0eab467e-3aee-4ed9-a842-5831e14f01ed" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-2afdefa1-6423-4a4e-896a-fa51da9eedbc" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
+          postman collection run "17928242-7a79b3e3-83cd-4472-9763-d74d8b6aa574" -e "17928242-bf4726f2-765b-43b9-b4c9-ea8eaa2913ad"
