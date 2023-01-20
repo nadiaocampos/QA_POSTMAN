@@ -1,4 +1,4 @@
-name: Automated API tests using Postman CLI
+name: Clicoh_C11_Pickup_Campain
 
 on: 
    push:
