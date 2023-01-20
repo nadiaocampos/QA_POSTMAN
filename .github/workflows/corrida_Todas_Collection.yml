@@ -1,6 +1,19 @@
 name: Corrida Todas Collection
 
-on: push
+on: 
+  push :
+   branches :
+     - master
+  workflow_dispatch:
+    inputs:
+      collection:
+        description: 'Collection'
+        required: true
+        default: 'Todas' 
+        type: choice
+        options:
+        - Todas
+
 
 
 jobs:
