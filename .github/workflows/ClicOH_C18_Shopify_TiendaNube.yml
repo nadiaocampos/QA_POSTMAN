@@ -1,6 +1,11 @@
 name: ClicOH_C18_Shopify_TiendaNube
 
-on: push
+on: 
+   push:
+    branches : 
+      - master
+   schedule:
+    - cron:  '0 10 * * *' # 7:00AM ART
 
 jobs:
   automated-api-tests:
