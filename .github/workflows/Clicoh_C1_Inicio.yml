@@ -6,6 +6,16 @@ on:
      - master
   schedule:
    - cron:  '0 9 * * *' # EJECUTA A LAS 9 AM 
+   
+  workflow_dispatch:
+    inputs:
+      collection:
+        description: 'Collection'
+        required: true
+        default: 'Todas' 
+        type: choice
+        options:
+        - Todas
 
 jobs:
   automated-api-tests:
