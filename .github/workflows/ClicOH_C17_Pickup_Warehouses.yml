@@ -1,6 +1,11 @@
 name: ClicOH_C17_Pickup_Warehouses
 
-on: push
+on: 
+   push:
+    branches : 
+      - master
+   schedule:
+    - cron:  '0 10 * * *' # 7:00AM ART
 
 jobs:
   automated-api-tests:
