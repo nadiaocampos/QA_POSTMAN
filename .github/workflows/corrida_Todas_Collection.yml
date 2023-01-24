@@ -2,8 +2,10 @@ name: Corrida Todas Collection
 
 on: 
   push :
-   branches :
-     - master
+    branches : 
+      - master
+   schedule:
+    - cron:  '30 9 * * *' # 6:00AM ART
   workflow_dispatch:
     inputs:
       collection:
@@ -13,6 +15,7 @@ on:
         type: choice
         options:
         - Todas
+
 
 
 
