@@ -4,8 +4,7 @@ on:
   push :
     branches : 
       - master
-   schedule:
-    - cron:  '30 9 * * *' # 6:00AM ART
+
   workflow_dispatch:
     inputs:
       collection:
