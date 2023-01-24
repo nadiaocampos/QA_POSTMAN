@@ -6,15 +6,7 @@ on:
       - master
    schedule:
     - cron:  '30 9 * * *' # 6:30AM ART
-  workflow_dispatch:
-    inputs:
-      collection:
-        description: 'Collection'
-        required: true
-        default: 'Clicoh_C9_Pickup_Address' 
-        type: choice
-        options:
-        - Clicoh_C9_Pickup_Address
+
 
 jobs:
   automated-api-tests:
