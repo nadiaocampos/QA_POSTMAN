@@ -59,10 +59,25 @@
     "name": "ClicOH_C15_Pickup_Product",
     "id": "17928242-8d709697-b57c-4951-9892-fd580efc5b37"
   },
-   {
+  {
+    "name": "ClicOH_C16_Pickup_User",
+    "id": "17928242-20a3daeb-e71b-44f2-95ef-ff37455c4670"
+  },
+  {
+    "name": "ClicOH_C17_Pickup_Warehouses_Combos",
+    "id": "17928242-dc0c76d5-40a3-4a84-84a1-6a4b6fc4b6f6"
+  },
+  {
+    "name": "ClicOH_C18_Shopify_TiendaNube",
+    "id": "17928242-d55acb31-4081-4f5f-852a-26394c6dab3c"
+  },
+  {
+    "name": "ClicOH_C19_Rates_Service",
+    "id": "17928242-0eab467e-3aee-4ed9-a842-5831e14f01ed"
+  },
+  {
     "name": "ClicOH_C20_MS1",
     "id": "17928242-2afdefa1-6423-4a4e-896a-fa51da9eedbc"
   }
 ]
 
-PRUEBA
